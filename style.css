@@ -20,6 +20,7 @@ body{
     text-align: center;
     margin: auto;
     transition: all .5s;
+    cursor: pointer;
     &:hover{
         background-color: #fff;
         color: #000;
@@ -41,7 +42,6 @@ body{
         position: relative;
         width: 1300px;
         height: 100%;
-        /* background-color: red; */
         align-items: center;
         display: flex;
         margin: auto;
@@ -52,9 +52,7 @@ body{
             font-weight: bold;
         }
         .Navigation{
-            /* display: flex; */
             & a{
-                /* display: inline-block; */
                 margin-right: 27px;
                 font-size: .9rem;
                 text-decoration: none;   
@@ -171,7 +169,7 @@ body{
         }
         .right{
             & img{
-                height: 400px;
+                height: 450px;
             }
         }
     }
@@ -179,6 +177,71 @@ body{
 
 
 /* ----------------------------home section Ends-------------------------- */
+
+/* -------------------------Features section Starts------------------------------ */
+
+.features{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    .container{
+        width: 1200px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        .vip{
+            padding: 7px 16px;
+            background-color: rgb(248, 243, 197);
+            display: inline;
+            border-radius: 20px;
+            color: rgb(225, 75, 48);
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+        & h1{
+            font-size: 2.5rem;
+            font-weight: bolder;
+        }
+        & P{
+            width: 650px;
+            justify-content: center;
+            margin: 0 auto;
+            opacity: .5;
+        }
+    }
+    .container2{
+        width: 80%;
+        height:fit-content;
+        margin: auto;
+        .items{
+            display: flex;
+            flex-wrap: wrap ;
+            .item{
+                position: relative;
+                height: 300px;
+                width: 300px;
+                margin: 30px 50px;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                & img{
+                    height: 80px;
+                    margin: 0 auto;
+                }
+                & h3{
+                    font-size: 1.5rem;
+                }
+                & p{
+                    margin-top: -10px;
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}
+
+/* -------------------------Features section Ends------------------------------ */
 
 
 
@@ -223,11 +286,10 @@ body{
         .left{
             width: 800px;
             & img{
-                height: 600px;
+                height: 400px;
             }
         }
     }
-
 }
 
 
