@@ -8,7 +8,7 @@ body{
 
 /* -----------------Buttion-------------- */
 .btn{
-    width: 140px;
+    width: 150px;
     border-radius: 20px;
     height: 40px;
     border: 1px solid #969696;
@@ -16,6 +16,7 @@ body{
     background-color: #081158;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
     text-align: center;
     margin: auto;
     transition: all .5s;
@@ -35,6 +36,7 @@ body{
     position: relative;
     width: 100%;
     height: 12vh;
+    z-index: 1;
     .content{
         position: relative;
         width: 1300px;
@@ -113,3 +115,120 @@ body{
         }
     }
 }
+
+/* --------------------------header ends----------------------------- */
+
+
+
+/* ----------------------------home section starts-------------------------- */
+
+.home{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    .container{
+        width: 1300px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        .left{
+            width: 50%;
+            & h5{
+                padding: 7px 16px;
+                background-color: rgb(248, 243, 197);
+                display: inline;
+                border-radius: 20px;
+                color: rgb(247, 159, 144);
+                text-transform: uppercase;
+                font-size: 10px;
+            }
+            & h1{
+                font-size: 3rem;
+                font-weight: bolder;
+            }
+            & p{
+                opacity: .5;
+                padding-bottom: 35px;
+                width: 500px;
+            }
+            .b{
+                height: 45px;
+                color: #fff;
+                &:hover{
+                    color: #081158;
+                }
+            }
+            .bt{
+                height: 45px;
+                background-color: #fff;
+                color: #081158;
+                &:hover{
+                    color: #fff;
+                    background-color: #081158;
+                }
+            }
+        }
+        .right{
+            & img{
+                height: 400px;
+            }
+        }
+    }
+}
+
+
+/* ----------------------------home section Ends-------------------------- */
+
+
+
+/* ----------------------------About section Starts-------------------------- */
+.about-section{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    .container{
+        width: 1300px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        .right{
+            width: 500px;
+            margin-left: 100px;
+            & h5{
+                padding: 7px 16px;
+                background-color: rgb(248, 243, 197);
+                display: inline;
+                border-radius: 20px;
+                color: rgb(247, 159, 144);
+                text-transform: uppercase;
+                font-size: 10px;
+            }
+            & h1{
+                font-size: 3rem;
+                font-weight: bolder;
+            }
+            & p{
+                opacity: .5;
+                width: 500px;
+            }
+            & ul{
+                list-style: none;
+                margin-left: -50px;
+                opacity: .5;
+                padding-bottom: 35px;
+            }
+        }
+        .left{
+            width: 800px;
+            & img{
+                height: 600px;
+            }
+        }
+    }
+
+}
+
+
+/* ----------------------------About section Ends-------------------------- */
