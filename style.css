@@ -7,6 +7,7 @@ body{
 
 
 /* -----------------Buttion-------------- */
+
 .btn{
     width: 150px;
     border-radius: 20px;
@@ -26,6 +27,7 @@ body{
         color: #000;
     }
 }
+
 /* -----------------Buttion-------------- */
 
 
@@ -114,6 +116,7 @@ body{
     }
 }
 
+
 /* --------------------------header ends----------------------------- */
 
 
@@ -176,6 +179,8 @@ body{
 
 
 /* ----------------------------home section Ends-------------------------- */
+
+
 
 /* -------------------------Features section Starts------------------------------ */
 
@@ -247,6 +252,7 @@ body{
 
 
 /* ----------------------------About section Starts-------------------------- */
+
 .about-section{
     width: 100%;
     height: 60vh;
@@ -394,13 +400,64 @@ body{
 
 /* ---------------------------------Tean Section Ends------------------------------- */
 
+
+/* --------------------------------------Stats section starts--------------------------- */
+.stats{
+    width: 100%;
+    height: 48vh;
+    position: relative;
+    background-color: #F8F9FA;
+    padding-top: 90px;
+    .container{
+        position: relative;
+        margin: auto;
+        width: 1200px;
+        height: 100%;
+        align-items: center;
+        .text{
+            text-align: center;
+            & p1{
+                padding: 7px 16px;
+            background-color: rgb(248, 243, 197);
+            display: inline;
+            border-radius: 20px;
+            color: rgb(247, 159, 144);
+            text-transform: uppercase;
+            font-size: 10px;
+            }
+            & p{
+                width: 600px;
+                margin: 0 auto;
+                opacity: .5;
+            }
+        }
+        .numaric{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            & span{
+                margin: 70px 30px;
+                font-size: 4rem;
+                font-weight: bolder;
+
+            }
+        }
+    }
+}
+
+
+
+/* --------------------------------------Stats section Ends--------------------------- */
+
 /* ------------------------------Testimonials Section Starts------------------- */
 
 .Testimonials{
     width: 100%;
     height: fit-content;
     position: relative;
-    background-color:#F8F9FA ;
     padding: 100px 0;
     .text{
         text-align: center;
