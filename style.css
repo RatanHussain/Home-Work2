@@ -131,7 +131,7 @@ body{
         display: flex;
         align-items: center;
         .left{
-            width: 50%;
+            width: 45%;
             & h5{
                 padding: 7px 16px;
                 background-color: rgb(248, 243, 197);
@@ -143,7 +143,6 @@ body{
             }
             & h1{
                 font-size: 3rem;
-                font-weight: bolder;
             }
             & p{
                 opacity: .5;
@@ -212,9 +211,10 @@ body{
     }
     .container2{
         width: 80%;
-        height:fit-content;
+        height:100%;
         margin: auto;
         .items{
+            justify-content: center;
             display: flex;
             flex-wrap: wrap ;
             .item{
@@ -306,6 +306,7 @@ body{
     margin: 100px 0;
     & p , h1{
         text-align: center;
+        color: #081158;
     }
     .container{
         width: 70%;
@@ -331,6 +332,7 @@ body{
                 justify-content: left;
                 & P{
                     text-align: left;
+                    opacity: .5;
                 }
             }
 
@@ -384,7 +386,7 @@ body{
             .item{
                 background-color: #fff;
                 border-radius: 10px;
-                height: 250px;
+                height: 220px;
                 width: 450px;
                 margin: 0 20px;
                 border: 1px solid #d0cecead;
@@ -419,3 +421,39 @@ body{
 }
 
 /* ------------------------------Testimonials Section Ends------------------- */
+
+
+
+/* ---------------------------------Footer Section Starts------------------------------- */
+
+.footer{
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    .container{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        .item{
+            margin: auto ;
+            & p{
+                opacity: .5;
+            }
+            & ul{
+                list-style: none;
+                line-height: 30px;
+                margin-left: -35px;
+                & li{
+                    opacity: .5;
+                }
+                & i{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+/* ---------------------------------Footer Section ends------------------------------- */
