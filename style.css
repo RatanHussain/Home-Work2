@@ -236,7 +236,7 @@ body{
                 .child{
                     font-size: 1rem;
                     font-weight: normal;
-                    margin-top:20px;
+                    margin-top:15px;
                     background-color: #fff;
                     padding: 6px 20px;
                     display: none;
@@ -630,6 +630,63 @@ body{
 }
 
 /* ------------------------------Testimonials Section Ends------------------- */
+
+
+
+/* ------------------------------Contact Section Starts------------------- */
+
+.container{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    .name{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        .child{
+            &:first-child{
+                margin-right: 30px;
+            }
+            & label{
+                opacity: .5;
+            }
+            & input{
+                height: 35px;
+                width: 300px;
+                border: 2px solid #b2b0b074;
+                outline: none;
+                border-radius: 3px;
+                padding: 0 15px;
+            }
+        }
+    }
+    & label{
+        opacity: .5;
+    }
+    & input{
+        height: 45px;
+        width: 661px;
+        border: 2px solid #b2b0b074;
+        outline: none;
+        border-radius: 3px;
+        padding: 0 15px;
+        
+    }
+    & textarea{
+        border: 2px solid #b2b0b074;
+        outline: none;
+        border-radius: 3px;
+        padding: 10px 15px;
+        font-size: 19px;
+    }
+}
+
+
+/* ------------------------------Contact Section Ends------------------- */
+
+
 
 
 
