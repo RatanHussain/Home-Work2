@@ -286,8 +286,8 @@ body{
     position: relative;
     margin: 100px 0;
     .container{
-        width: 1200px;
-        margin: auto;
+        width: fit-content;
+        margin: 0 auto;
         text-align: center;
         justify-content: center;
         .vip{
@@ -304,7 +304,7 @@ body{
             font-weight: bolder;
         }
         & P{
-            width: 650px;
+            width: 70%;
             justify-content: center;
             margin: 0 auto;
             opacity: .5;
@@ -312,10 +312,15 @@ body{
     }
     .container2{
         width: 80%;
-        height:100%;
-        margin: auto;
+        height:fit-content;
+        margin: 0 auto;
+        margin-top: -400px;
         .items{
+            height: 100%;
+            margin: 0 auto;
+            align-items: center;
             justify-content: center;
+            height: fit-content;
             display: flex;
             flex-wrap: wrap ;
             .item{
@@ -412,6 +417,7 @@ body{
     }
     .container{
         width: 70%;
+        height: fit-content;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -727,3 +733,15 @@ body{
 
 
 /* ---------------------------------Footer Section ends------------------------------- */
+
+
+
+
+/* ----------------------------------- Mobile view section Starts----------------------------- */
+
+@media (max-width:768px) {
+    .    
+}
+
+
+/* ----------------------------------- Mobile view section Ends----------------------------- */
