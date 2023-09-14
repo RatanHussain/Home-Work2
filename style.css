@@ -54,6 +54,10 @@ body{
             font-weight: bold;
         }
         .Navigation{
+            #check,.check{
+                display: none;
+                font-size: 2rem;
+            }
             & a{
                 margin-right: 27px;
                 font-size: .9rem;
@@ -740,7 +744,20 @@ body{
 /* ----------------------------------- Mobile view section Starts----------------------------- */
 
 @media (max-width:768px) {
-    .    
+    .header{
+        .content{
+            width: 400px;
+            justify-content: space-between;
+            .Navigation{
+                .check{
+                    display: inline-block ;
+                }
+                & a, .btn{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 
