@@ -878,20 +878,58 @@ body{
 
     /* ------------Stats---------- */
     .stats{
+        display: none;
+    }
+
+
+    /* ------------Questions---------- */
+    .question{
         width: 100%;
         height: fit-content;
         position: relative;
-        .container {
-            display: block;
-            .numaric{
+        .container{
+            width: 100%;
+            .text{
+                width: 96%;
+                margin: 0 auto;
+                & h1{
+                    font-size: 1.5rem;
+                }
+                & p{
+                    width: 95%;
+                    margin: 0 auto;
+                }
+            }
+            .qtn{
                 width: 100%;
-                & span{
-                    display: inline-block;
+                .head{
+                    width: 95%;
+                    margin: 0 auto;
+                    margin-left: 20px;
+                    &:nth-child(2){
+                        margin: 20px 20px;
+                    }
+                    &:hover{
+                        background-color: #081158;
+                        color: #fff;
+                        margin-bottom: 150px;
+                        .fa-minus{
+                            display: inline;
+                        }
+                        .fa-plus{
+                            display: none;
+                        }
+                        .child{
+                            display: block;
+                            color: #000;
+                            transition: all .5s;
+                            z-index: 2;
+                        }   
+                    }
                 }
             }
         }
     }
-
 
     /* ------------TestMonials---------- */
     .Testimonials{
