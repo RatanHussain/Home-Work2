@@ -903,7 +903,7 @@ body{
             .qtn{
                 width: 100%;
                 .head{
-                    width: 95%;
+                    width: 90%;
                     margin: 0 auto;
                     margin-left: 20px;
                     &:nth-child(2){
@@ -934,7 +934,7 @@ body{
     /* ------------TestMonials---------- */
     .Testimonials{
         width: 100%;
-        margin-top: -150px;
+        margin-top: -130px;
         .container i{
             display: none;
         }
@@ -942,6 +942,27 @@ body{
             width: 85%;
         }
     }
+
+
+
+    /* ------------Footer---------- */
+    .container{
+        width: 95%;
+        & form{
+            width: 85%;
+            margin: 0 auto;
+            .name{
+                display: block;
+            }
+            .email{
+                width: 80%;
+            }
+            & textarea{
+                width: 80%;
+            }
+        }
+    }
+
 
 
 
